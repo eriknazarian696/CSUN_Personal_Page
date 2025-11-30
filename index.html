@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Erik Nazarian - Personal Page</title>
+
+  <!-- link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="profile">
+      <img src="media/portrait.jpg" alt="Portrait of Your Name" class="profile-photo">
+      <div class="profile-text">
+        <h1>Erik Nazarian</h1>
+        <p class="tagline">Student at California State University, Northridge</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <!-- Short bio -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Currently enrolled in my second semested at CSUN with a major in Computer Information Technology and minor of Business Analytics.
+        <br><br>
+            I have always been fascinated and intrigued with computers. My journey started at a young age. Playing around with games, installing unknown amounts of malware online in search of free music, and troubleshooting makeshift game servers at home to host private online sessions to play with friends are some memories that pop up. This is where my interest for IT came from.
+        <br><br>
+        Between 13 units and 2 jobs, I don’t have much free time or breaks between school and work, but when I do, I prioritize traveling with my girlfriend and exploring new places together. If there is one lesson I would pass on, it is to get out there and see the world whenever you can, while you still can! The memories made are extremnely fulfilling and last forever.
+        <br><br>
+        ****(if you have been considering booking that trip, this is your sign).****
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Undergraduate [Computer Information Technology (CIT)], California State University Northridge</li>
+        <!-- Add more education items if you have them -->
+      </ul>
+    </section>
+
+    <!-- Work experience -->
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <strong>Purchasing / Procurement</strong>,
+          [LA County Fire Department (Materials Management Division)]  
+          <br>
+          [07/2025] - Present  
+        </li>
+          <br><br>
+        <li>
+          <strong>Machinist / Programmer</strong>,
+          [MTM CNC Machining(Aerospace Component Manufacturing)]  
+          <br>
+          [12/2023] - Present  
+         
+        </li>
+        <!-- Add other jobs if you have them -->
+      </ul>
+    </section>
+
+    <!-- Career interests -->
+    <section>
+      <h2>Career Interests</h2>
+      <p>
+        When I first started this education path in college, my main goal was to graduate and find a career in IT, for example a system administrator or head IT manager of an exciting firm or organization. 
+        <br><br>
+        However, as I took classes to satisfy my minor requirements for Business Analytics, I began to grow a passion for data analysis, in particlar <strong>Machine Learning</strong>. I got a deep dive look into how modern predictive models and LLM chatbots like chatGPT work including the amount of data as well as algorithmic complexity that goes into it on the backend.
+        <br><br>
+        Fortunately, if all goes to plan, I will be able to use my credentials to qualify for a variety of jobs in the Information systems/Data Analytics fields
+      </p>
+    </section>
+
+    <!-- Courses table -->
+    <section>
+      <h2>Courses This Semester</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+            <th>Section #</th>
+            <th>No. of Credits</th>
+            <th>Days of Class Meeting</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IS 312 - Systems and Technologies for Managers</td>
+            <td>13495</td>
+            <td>3</td>
+            <td>Mon, Wed</td>
+          </tr>
+          <tr>
+            <td>BANA 310 - Data Visualization for Business</td>
+            <td>21221</td>
+            <td>3</td>
+            <td>Tue, Thu</td>
+          </tr>
+          <tr>
+            <td>BANA 410 - Machine Learning for Business</td>
+            <td>21220</td>
+            <td>3</td>
+            <td>Thu</td>
+          </tr>
+          <tr>
+            <td>CIT 210L - Deployment and Management of Operating Systems with Lab</td>
+            <td>16549</td>
+            <td>4</td>
+            <td>Mon, Wed</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name</p>
+  </footer>
+
+  <!-- Optional tiny JavaScript just to update the year automatically -->
+  <script>
+    const yearSpan = document.getElementById("year");
+    yearSpan.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
